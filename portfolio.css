@@ -1,0 +1,231 @@
+
+ *{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+ }
+  body{
+    font-family: Poppins;
+    color: white;
+    
+  }
+
+ 
+.heroImg {
+object-fit: cover;
+    border-radius: 15px;
+}
+.navigation{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.divport{
+color: white;
+font-family: Poppins;
+font-size: larger;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+ul li{
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+   
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.link:hover{
+    cursor: pointer;
+    color: red;
+    transition: 0.5s;
+}
+
+.navbutton{
+font-size: 20px;
+border-radius: 20px;
+cursor: pointer;
+padding: 5px;
+background-color: red;
+
+}
+.navbutton:hover{
+    background-color: red;
+    transition: 1s;
+}
+
+
+#home{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+
+
+/*navbar ends here*/
+    /* .herosection{
+        display: flex;
+        flex-direction: row;
+        max-width: 1000px;
+        
+        
+    } */
+    .herotext{ 
+         
+         color: white;
+         
+    }
+    .heroimage{
+margin-left: 20px;
+    
+    
+    } 
+    .herotext h1{
+      font-size: 40px;
+      color: white;
+    }
+    .btn1{
+        font-size: 20px;
+        padding: 5px;
+        background-color: red;
+        border-radius: 20px;
+    }
+    .btn2{
+        font-size: 20px;
+        background-color: white;
+        padding: 5px;
+        border-radius: 20px;
+        color: darkblue;
+    }
+    .button-container{
+        margin-top: 10px;
+    }
+    .herotext p{
+        font-family: Poppins;
+        font-size: 20px;
+        color: skyblue;
+    }
+    /* about me starts here */
+    #about{
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+    .aboutItem1{
+        margin-left: 300px;
+        margin-top: 40px;
+    }
+
+    .aboutItem2{
+        background-color: white;
+        border-radius: 10px;
+        padding: 10px;
+        height: 400px;
+        width: 500px;
+        margin-top: 10px;
+        text-align: justify;
+    }
+    .aboutItem2 p{
+        color: darkblue;
+    }
+    .aboutItem2 h2{
+    color: black;
+    font-size: 30px;
+    
+    }
+    #works{
+        color: black;
+        
+        
+        
+    }
+   
+    #works h1{
+        text-align: center;
+        font-size: 40px;
+    }
+    .serviceCards{
+        display: flex;
+        justify-content: center;
+    }
+    .serviceCards img{
+        height: 300px;
+        width: 300px;
+    }
+    .card1{
+        width: fit-content;
+        border: 3px solid red;
+        border-radius: 8px;
+        padding: 10px;
+        margin: 9px;
+        
+        
+    }
+    .card2{
+        width: fit-content;
+        border: 3px solid red;
+        border-radius: 8px;
+        padding: 10px;
+        margin: 9px;
+        
+    }
+    .card3{
+        width: fit-content;
+        border: 3px solid red;
+        border-radius: 8px;
+        padding: 10px;
+        margin: 9px;
+        
+    }
+    .card4{
+        width: fit-content;
+        border: 3px solid red;
+        border-radius: 8px;
+        margin: 9px;
+        
+    }
+    .workButtons{
+        display: flex;
+justify-content: center;
+    }
+    .workButtons Button{
+        font-size: 30px;
+        margin-top: 20px;
+        color: darkblue;
+        margin: 8px;
+        border: 1px solid white;
+        border-radius: 7px;
+    }
+    Button:hover{
+        cursor: pointer;
+    }
+    .aboutimage4{
+        padding: 10px;
+    }
+    .workText{
+        color: darkblue;
+        text-align: center;
+        font-size: larger;
+    }
+    #contact{
+        background-color: black;
+        text-align: center;
+    }
+    #contact i{
+        font-size: 30px;
+        padding: 8px;
+    }
